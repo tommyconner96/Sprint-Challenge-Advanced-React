@@ -1,4 +1,5 @@
 body {
+  background-color: greenyellow;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -10,4 +11,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.header h1 {
+  color: dodgerblue;
+}
+
+.card {
+  border: darkgreen solid 1px;
+  background-color: darkorange;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.playercard {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.playercard-container {
+  background-color: darkmagenta;
+  width: 1000px;
+  margin: 0 auto;
 }

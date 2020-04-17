@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className='header'>
-        <h1>Womens World Cup Players List!</h1>
+        <h1>Womens World Cup Players</h1>
       </div>
       <div className='playercard-container'>
         <PlayerCard />
