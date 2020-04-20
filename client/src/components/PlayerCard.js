@@ -25,7 +25,7 @@ class PlayerCard extends React.Component {
     render(){
         return(
             <div className='playercard'>
-            {this.state.players.map((item, i) => <div className='card' key={i}>
+            {this.state.players.map((item, i) => <div  className='card' key={i}>
               <h3>Name: {item.name}</h3>
               <p>Country: {item.country}</p> 
               <p>Searches: {item.searches}</p></div>)}
